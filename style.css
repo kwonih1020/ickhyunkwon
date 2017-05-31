@@ -1,0 +1,47 @@
+html {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.headlines {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Sanchez', serif;
+    text-align: center;
+    position: fixed;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    display: flex;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+}
+
+#facebook_icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 70px;
+}
+
+#linkedin_icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#gmail_icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 70px;
+}
