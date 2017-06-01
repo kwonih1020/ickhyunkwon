@@ -4,17 +4,19 @@
     <meta charset="utf-8">
     <title>Ick's Portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="javascript" href="script.js">
-    <!-- <script src="./script.js"></script> -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
  </head>
   <body>
-    <div class="headlines">
+
+    <header class="headlines">
       <p>Hello! I'm</p>
       <span>Ick Hyun Kwon</span>
       <p>Web Developer</p>
-    </div>
+    </header>
+
     <div class="icon">
       <a href="https://www.facebook.com/kwonickhyun">
         <img id="facebook_icon" src="images/facebook_logo.png" />
@@ -26,5 +28,15 @@
         <img id="gmail_icon" src="images/gmail_logo.png" />
       </a>
     </div>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <span onclick="openNav()">open</span>
   </body>
 </html>
