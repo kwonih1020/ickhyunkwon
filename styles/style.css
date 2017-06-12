@@ -19,7 +19,7 @@ body, html {
     font-family: 'Sanchez', serif;
     text-align: center;
     position: relative;
-    top: 26%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -41,7 +41,7 @@ a {
     display: flex;
     cursor: pointer;
     position: relative;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding-top: 100px;
@@ -53,7 +53,8 @@ a {
 }
 
 #flip {
-    margin-bottom: 170px;
+    margin-top: 300px;
+    margin-bottom: 190px;
     font-size: 30px;
     font-family: 'Sanchez', serif;
 }
@@ -69,4 +70,11 @@ a {
   height: 60px;
   margin: 20px;
   padding-top: 20px;
+}
+
+/*page_2*/
+
+.parallax_1 p {
+  font-family: 'Sanchez', serif;
+  font-size: 50px;
 }
