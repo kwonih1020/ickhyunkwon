@@ -1,0 +1,72 @@
+html {
+    background-image: url(../images/backgrounds/first_page.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body, html {
+    height: 100%;
+}
+
+.headlines {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Sanchez', serif;
+    text-align: center;
+    position: relative;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.parallax_1 {
+    background-image: url(../images/backgrounds/second_page.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 100px;
+}
+
+#flip, #panel {
+    position: relative;
+    text-align: center;
+}
+
+#flip {
+    margin-bottom: 170px;
+    font-size: 30px;
+    font-family: 'Sanchez', serif;
+}
+
+#panel {
+    display: none;
+    z-index: 1;
+}
+
+#facebook_icon, #linkedin_icon, #gmail_icon, #github_icon {
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  padding-top: 20px;
+}
