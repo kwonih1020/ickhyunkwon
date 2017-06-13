@@ -74,8 +74,39 @@ a {
 
 /*page_2*/
 
-.parallax_1 p {
+.parallax_1 h1 {
   font-family: 'Sanchez', serif;
   font-size: 50px;
   font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.parallax_1 p {
+  font-size: 25px;
+  font-family: 'Sanchez', serif;
+  text-align: center;
+  border: 1px;
+  width: 1000px;
+  position: relative;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+.user {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: relative;
+  margin-top: 50px;
 }
