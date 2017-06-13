@@ -14,7 +14,7 @@ body, html {
 }
 
 .headlines {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 50px;
     font-family: 'Sanchez', serif;
     text-align: center;
@@ -77,4 +77,5 @@ a {
 .parallax_1 p {
   font-family: 'Sanchez', serif;
   font-size: 50px;
+  font-weight: bold;
 }
