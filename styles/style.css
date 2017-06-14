@@ -3,28 +3,28 @@ a {
 }
 
 .icon {
-    display: flex;
-    cursor: pointer;
-    position: relative;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-top: 100px;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 100px;
 }
 
 #flip, #panel {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 #flip {
-    font-size: 30px;
-    font-family: 'Sanchez', serif;
+  font-size: 30px;
+  font-family: 'Sanchez', serif;
 }
 
 #panel {
-    display: none;
-    z-index: 1;
+  display: none;
+  z-index: 1;
 }
 
 #facebook_icon, #linkedin_icon, #gmail_icon, #github_icon {
@@ -35,18 +35,8 @@ a {
   padding-top: 20px;
 }
 
-.indexContainer p {
-  font-weight: bolder;
-  font-size: 50px;
-  font-family: 'Sanchez', serif;
-  margin: 20px;
-}
-
 .indexContainer {
   background-image: url(../images/backgrounds/first_page.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -58,20 +48,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.intro{
-  /*background-image: url(../images/backgrounds/second_page.jpg);*/
-  background-color: blue;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
 }
 
 .projectContainer{
@@ -91,25 +67,32 @@ span.menu_click {
   font-family: 'Sanchez', serif;
   font-size: 30px;
   font-weight: bolder;
+  float: left;
+}
+
+#myself p {
+  font-weight: bolder;
+  font-size: 50px;
+  font-family: 'Sanchez', serif;
+  margin: 50px;
 }
 
 .sidenav {
-    font-family: 'Sanchez', serif;
-    height: 93%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
+  font-family: 'Sanchez', serif;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
 .closebtn {
-    text-decoration: none;
-    color: #818181;
+  text-decoration: none;
+  color: #818181;
 }
 
 #navbar a {
@@ -122,23 +105,69 @@ span.menu_click {
 }
 
 #navbar a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .sidenav .closebtn {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    font-size: 36px;
-    text-decoration: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 36px;
+  text-decoration: none;
 }
 
-#main {
-    transition: margin-left .5s;
-    padding: 10px;
+@media screen and (max-height: 800px) {
+  .sidenav {
+    padding-left: 15px;
+  }
+  #navbar a {
+    font-size: 18px;
+  }
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+.intro{
+  background-image: url(../images/backgrounds/second_page.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.user {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 60%;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.intro h1 {
+  font-family: 'Sanchez', serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#brand p {
+  font-size: 25px;
+  font-family: 'Sanchez', serif;
+  text-align: center;
+  border: 1px;
+  width: 800px;
+  display: block;
+  margin: auto;
+}
+
+#brand a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-family: 'Sanchez', serif;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
