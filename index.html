@@ -11,17 +11,19 @@
     <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
  </head>
   <body>
-
-    <div id="navbar">
-      <a href="#index-page">Index</a>
-      <a href="#about-page">#2</a>
-      <a href="#project-page">#3</a>
-      <a href="#contact-page">#4</a>
-    </div>
-
     <div id="wrapper">
       <div class="section" data-anchor="index-page">
         <div class="indexContainer">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div id="navbar">
+              <a href="#index-page">Index</a>
+              <a href="#about-page">About</a>
+              <a href="#project-page">Projects</a>
+              <a href="#contact-page">Not yet</a>
+            </div>
+          </div>
+          <span class="menu_click" onclick="openNav()">Menu</span>
           <p>Hello! I'm</p>
           <p>Ick Hyun Kwon</p>
           <p>Front-end Web Developer</p>
