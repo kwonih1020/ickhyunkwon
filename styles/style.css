@@ -25,6 +25,8 @@ body, html {
 }
 
 .parallax_1 {
+    max-width: 120%;
+    max-height: 120%;
     background-image: url(../images/backgrounds/second_page.jpg);
     height: 120%;
     background-attachment: fixed;
@@ -116,5 +118,7 @@ a {
   font-size: 50px;
   color: black;
   font-family: 'Sanchez', serif;
+  transform: translate(-50%, -50%);
+  left: 20%;
   position: relative;
 }
