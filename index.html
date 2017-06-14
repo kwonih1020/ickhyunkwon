@@ -2,44 +2,75 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ick's Portfolio</title>
+    <title>Ick Hyun Kwon</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/jquery.fullPage.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/jquery.fullPage.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
  </head>
   <body>
 
-    <header class="headlines">
-      <p>Hello! I'm</p>
-      <span>Ick Hyun Kwon</span>
-      <p>Front-end Web Developer</p>
-    </header>
-
-    <div id="flip">Contact
-      <div class="icon" id="panel">
-        <a href="https://www.facebook.com/kwonickhyun">
-          <img id="facebook_icon" src="images/logos/facebook_logo.png" />
-        </a>
-        <a href="https://www.linkedin.com/in/ick-hyun-kwon-9963a513b/">
-          <img id="linkedin_icon" src="images/logos/linkedin_logo.png" />
-        </a>
-        <a href="mailto:kwonih1020@gmail.com">
-          <img id="gmail_icon" src="images/logos/gmail_logo.png" />
-        </a>
-        <a href="https://github.com/kwonih1020">
-          <img id="github_icon" src="images/logos/github_logo.png" />
-        </a>
-      </div>
+    <div id="navbar">
+      <a href="#index-page">Index</a>
+      <a href="#about-page">#2</a>
+      <a href="#project-page">#3</a>
+      <a href="#contact-page">#4</a>
     </div>
 
-    <div class="parallax_1">
-      <h1>About</h1>
-        <div class="user" style="background-image:url('images/backgrounds/profile_pic.jpeg')">
-          <p>An adventurous person and not afraid of failure. An energetic working style with the inexorable style to code. Like to group and work together to achieve to goals. Seeking for opportunities to combine my various background of biology and web development. My background in biology is the source of patience and understanding.</p>
-          <a href="resume/Resume-Ick.pdf" target="Resume">Resume</a>
+    <div id="wrapper">
+      <div class="section" data-anchor="index-page">
+        <div class="indexContainer">
+          <p>Hello! I'm</p>
+          <p>Ick Hyun Kwon</p>
+          <p>Front-end Web Developer</p>
+          <br></br>
+          <div id="flip">Contact
+            <div class="icon" id="panel">
+              <a href="https://www.facebook.com/kwonickhyun">
+                <img id="facebook_icon" src="images/logos/facebook_logo.png" />
+              </a>
+              <a href="https://www.linkedin.com/in/ick-hyun-kwon-9963a513b/">
+                <img id="linkedin_icon" src="images/logos/linkedin_logo.png" />
+              </a>
+              <a href="mailto:kwonih1020@gmail.com">
+                <img id="gmail_icon" src="images/logos/gmail_logo.png" />
+              </a>
+              <a href="https://github.com/kwonih1020">
+                <img id="github_icon" src="images/logos/github_logo.png" />
+              </a>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+
+      <div class="section" data-anchor="about-page">
+        <div class="intro">
+        </div>
+      </div>
+
+      <div class="section" data-anchor="project-page">
+        <div class="projectContainer">
+          <div class="slide" data-anchor="project-1">
+              <div>Slide #1</div>
+          </div>
+            <div class="slide" data-anchor="project-2">
+              <div>Slide #2</div>
+            </div>
+            <div class="slide" data-anchor="project-3">
+              <div>Slide #3</div>
+            </div>
+            <div class="slide" data-anchor="project-4">
+              <div>Slide #4</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-anchor="contact-page">
+          <div class="container">
+          </div>
+        </div>
+      </div>
   </body>
 </html>
