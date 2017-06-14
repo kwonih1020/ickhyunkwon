@@ -53,12 +53,19 @@ a {
   justify-content: center;
 }
 
-span.menu_click {
-  text-align: center;
-  font-family: 'Sanchez', serif;
-  font-size: 30px;
-  font-weight: bolder;
-  float: left;
+#menu_click, #myself {
+  display: inline-block;
+}
+
+#menu_click {
+    font-family: 'Sanchez', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    position: fixed;
+    width: 300px;
+    padding: 50px;
+    padding-bottom: 100px;
+    padding-left: 100px;
 }
 
 #myself p {
@@ -214,10 +221,6 @@ span.menu_click {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}
-
-.project_link a:hover, .offcanvas a:focus{
-  color: #f1f1f1;
 }
 
 /*page 4*/
