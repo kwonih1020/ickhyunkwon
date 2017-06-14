@@ -173,9 +173,47 @@ span.menu_click {
   background-image: url(../images/backgrounds/third_page.jpg);
   background-size: cover;
   height: 100%;
+  text-align: center;
+  color: white;
 }
 
+.project_title h1, img{
+  display: inline-block;
+  font-family: 'Sanchez', serif;
+}
 
+.project_title h3 {
+  font-family: 'Sanchez', serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.project_title img {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.project_link img {
+  width: 670px;
+  height: 670px;
+  border-radius: 10%;
+  border: 3px solid white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.project_link2 img {
+  width: 850px;
+  height: 670px;
+  border-radius: 10%;
+  border: 3px solid white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
 /*page 4*/
 
