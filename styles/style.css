@@ -87,7 +87,8 @@ span.menu_click {
 }
 
 #navbar a {
-  margin: 100px 100px 100px 50px;
+  /*margin: 100px 100px 100px 50px;*/
+  margin-top: 200px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -191,8 +192,8 @@ span.menu_click {
 
 .project_title img {
   margin-left: 10px;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 .project_link img {
@@ -215,10 +216,14 @@ span.menu_click {
   background-size: cover;
 }
 
-/*page 4*/
+.project_link a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
 
+/*page 4*/
+/*
 .container{
   background-color: red;
   height: 100vh;
   text-align: center;
-}
+}*/
