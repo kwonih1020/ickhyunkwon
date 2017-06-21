@@ -1,9 +1,11 @@
 $(document).ready(function(){
+
     $('#wrapper').fullpage({
     });
     $("#flip").click(function(){
         $("#panel").slideToggle("slow");
     });
+
     $("#project_pic1").on({
         mouseenter: function() {
             $("#project_pic1").attr("src", "./images/gif/simon_game.gif"); //on hover replace pic.png to pic.gif(animation
